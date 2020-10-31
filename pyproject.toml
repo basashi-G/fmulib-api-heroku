@@ -5,7 +5,7 @@ description = ""
 authors = ["basashi <muratomo.0205@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8.6"
 Flask = "^1.1.2"
 pandas = "^1.1.4"
 schedule = "^0.6.0"
