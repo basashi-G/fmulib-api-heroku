@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fmulib-api-heroku"
+version = "0.1.0"
+description = ""
+authors = ["basashi <muratomo.0205@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+pandas = "^1.1.4"
+schedule = "^0.6.0"
+lxml = "^4.6.1"
+
+[tool.poetry.dev-dependencies]
+rope = "^0.18.0"
+black = "^20.8b1"
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
